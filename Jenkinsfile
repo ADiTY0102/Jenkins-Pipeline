@@ -1,7 +1,7 @@
 pipeline {
  agent any
  environment {
- TOMCAT_HOME = "C:\Program Files\apache-tomcat-9.0.111\" // Update as needed
+ TOMCAT_HOME = "C:\\Program Files\\apache-tomcat-9.0.111\\"
  }
  stages {
  stage('Checkout') {
